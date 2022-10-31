@@ -13,7 +13,8 @@
         <!-- front view -->
         <!--camera mode="fixed" name="frontview" pos="0 -.7 0.5" quat="0.8891 0.4575 0. 0." fovy="60"/-->
         <!-- robot front view -->
-        <camera mode="fixed" name="frontview" pos="0 -1.2 0.9" quat="0.86 0.51 0. 0." fovy="60"/> 
+        <camera mode="fixed" name="frontview" pos="0 -1.2 0.9" quat="0.86 0.51 0. 0." fovy="60"/>
         <camera mode="fixed" name="sideview" pos="-2.5 0. 0.5" quat="0.5468 0.4482 -0.4482 -0.5468"/>
+        <camera mode="fixed" name="agentview" pos="-.2 -0.6 0.75" quat="0.86 0.51 0. 0." fovy="60"/>
     </worldbody>
 </mujoco>
